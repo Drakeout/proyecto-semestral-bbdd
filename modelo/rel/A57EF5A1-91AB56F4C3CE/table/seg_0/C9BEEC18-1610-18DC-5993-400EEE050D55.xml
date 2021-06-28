@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C9BEEC18-1610-18DC-5993-400EEE050D55" name="institucion">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-06-28 00:24:35 UTC</createdTime>
+<generatorID>32804675-F038-4E47-60C0-B27E87C423C2</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_institucion" id="78ABC65F-CDB4-F03C-07A4-50C45BE5D425">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-06-28 00:24:35 UTC</createdTime>
+<generatorID>6451F02A-7D2A-A6ED-9A93-CB31FB85CD83</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pais" id="334619B2-402D-058B-E664-F760F8FBBA66">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-06-28 00:24:35 UTC</createdTime>
+<generatorID>21579A7D-A9D0-F69E-CBB8-6845B23C22A1</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="institucion" id="3E7BB602-8058-974F-4A1C-9F2D4ACE948C">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-06-28 00:24:35 UTC</createdTime>
+<generatorID>84936593-EA0D-2D66-950C-A3B1BF29A08E</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70 CHAR</dataTypeSize>
+<ownDataTypeParameters>70 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ranking" id="CFA3D66F-DA06-1484-1516-F8F36106DAAB">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-06-28 00:24:35 UTC</createdTime>
+<generatorID>8F49389D-3352-57C3-9084-438CAA375767</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="puntaje" id="24E029F6-5A14-A14D-02B2-745849A67F20">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-06-28 00:24:35 UTC</createdTime>
+<generatorID>C246FA3E-2CDD-DBEB-2219-BED3FFC0E4C9</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="postulante_codigo_postulante" id="8293E2A2-4FA6-4FBD-D3BF-D7BC96A5C3FB">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-06-28 00:24:35 UTC</createdTime>
+<generatorID>736DFB2E-6EDB-D06A-177B-90521618EB24</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B067A0D5-B3EF-92EB-9DDD-BE6005CE7855" referredColumn="511DF4B9-E5BA-EE26-EF90-8320EE56FEB5"/>
+</associations>
+</Column>
+<Column name="subarea_codigo_subarea" id="42EA246E-8AFB-4FF7-A584-C1C89962090B">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-06-28 00:24:35 UTC</createdTime>
+<generatorID>9E4C3BC5-B5E2-D162-5A54-2B27EBD7B874</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F930AB64-1502-ACD9-65A7-5418352EA3AA" referredColumn="B3B5524C-7A08-87D2-B7E7-9978B5A63181"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="787CD3A8-6621-3C6C-737C-D373C51C5EC7" name="institucion_PK">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-06-28 00:24:35 UTC</createdTime>
+<generatorID>D0695BCD-8C1D-51D3-8684-0B8A4612C6ED</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78ABC65F-CDB4-F03C-07A4-50C45BE5D425"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7614359A-D970-BECE-1537-AE6E676EE1E8" name="institucion__IDX">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-06-28 00:24:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>0E8ECA37-F4E2-1A73-AF0A-69699885AF61</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="8293E2A2-4FA6-4FBD-D3BF-D7BC96A5C3FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A8E50C12-320A-54CC-5767-A2A208FAAA47" name="institucion__IDXv1">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-06-28 00:24:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>83E747FE-9E84-D5DF-5E8C-359CC3AEBB80</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="42EA246E-8AFB-4FF7-A584-C1C89962090B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="28B5414E-96BF-AF2F-D33B-D69CFFCB7A15" name="institucion_postulante_FK">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-06-28 00:24:35 UTC</createdTime>
+<generatorID>0E8ECA37-F4E2-1A73-AF0A-69699885AF61</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8293E2A2-4FA6-4FBD-D3BF-D7BC96A5C3FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69389C89-2AFE-1FB3-5D37-008B904B4D32" name="institucion_subarea_FK">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-06-28 00:24:35 UTC</createdTime>
+<generatorID>83E747FE-9E84-D5DF-5E8C-359CC3AEBB80</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42EA246E-8AFB-4FF7-A584-C1C89962090B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

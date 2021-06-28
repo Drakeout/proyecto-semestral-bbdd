@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E8BA468B-B20E-9DEE-42A9-00523826101D" containerWithKeyObject="9A76873A-A649-A87D-9AE3-AC3F0BB2EE6E" localFKIndex="BB9C5916-2031-AC1C-1048-815A3BB196FE" name="postulante_puntaje_FK">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-06-28 00:24:35 UTC</createdTime>
+<generatorID>6357D5DA-9EAD-8A9C-D4D6-AAC8D006ECDB</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<referredTableLongName>puntaje</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>34372B6F-6DE1-769F-40BF-6E0C00433B9E</referredTableID>
+<keyObject>1DD812D1-98A0-E822-8C4F-2652EA3FA6BE</keyObject>
+<referredKeyID>1DD812D1-98A0-E822-8C4F-2652EA3FA6BE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codigo_puntaje</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

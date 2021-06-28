@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="73D3F56F-FFBF-D9B9-5B77-0AB61BFF4CA3" name="subarea">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-06-28 00:24:35 UTC</createdTime>
+<generatorID>07CCD463-41AB-528A-BCCF-A8F5BCC0DFB6</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_subarea" id="B3B5524C-7A08-87D2-B7E7-9978B5A63181">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-06-28 00:24:35 UTC</createdTime>
+<generatorID>B58DFE84-3843-200F-4788-3DC82729AAF2</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_subarea" id="061527CC-4C77-383A-6CAC-319DF0E38383">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-06-28 00:24:35 UTC</createdTime>
+<generatorID>FA7B8120-CD2B-41E2-2149-9BC6C6FB9C60</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70 CHAR</dataTypeSize>
+<ownDataTypeParameters>70 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="institucion_codigo_institucion" id="F9B61A85-26D4-088A-0416-3C9D9E23B1F3">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-06-28 00:24:35 UTC</createdTime>
+<generatorID>EF85A999-D762-EBD7-74DB-6AE38A0E70BC</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0203877D-D0E6-3F6A-1D4D-B382D887694A" referredColumn="78ABC65F-CDB4-F03C-07A4-50C45BE5D425"/>
+</associations>
+</Column>
+<Column name="subespecialidad_subespecialidad_ID" id="3DB1D5BC-B4B4-6924-A531-1615431A9D55">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-06-28 00:24:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FCB11993-47F4-7D1E-F7C6-CFB546003DFB" referredColumn="96141557-A993-BB6F-BD81-1772B6BDD0BA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7B6EC2CC-85BE-2DEC-7459-E17F33E55370" name="subarea_PK">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-06-28 00:24:35 UTC</createdTime>
+<generatorID>CF6C13A4-CA6E-1E57-954B-7D615C6A9D15</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3B5524C-7A08-87D2-B7E7-9978B5A63181"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E0E812C-91BA-ABE7-5E25-0C99ED929DB1" name="subarea__IDX">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-06-28 00:24:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>2E77CDD7-D173-33A0-AF3B-660A848BF5E5</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="3DB1D5BC-B4B4-6924-A531-1615431A9D55"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FBA0AFEC-D657-9685-D420-A0B43568918D" name="subarea__IDXv1">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-06-28 00:24:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>83E747FE-9E84-D5DF-5E8C-359CC3AEBB80</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="F9B61A85-26D4-088A-0416-3C9D9E23B1F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1DCAD5DA-8B96-5164-F48B-296C40194274" name="subarea_subespecialidad_FK">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-06-28 00:24:35 UTC</createdTime>
+<generatorID>2E77CDD7-D173-33A0-AF3B-660A848BF5E5</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DB1D5BC-B4B4-6924-A531-1615431A9D55"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="488F2D3E-6FAD-3144-1D26-FA7D59319F9D" name="subarea_institucion_FK">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-06-28 00:24:35 UTC</createdTime>
+<generatorID>83E747FE-9E84-D5DF-5E8C-359CC3AEBB80</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9B61A85-26D4-088A-0416-3C9D9E23B1F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

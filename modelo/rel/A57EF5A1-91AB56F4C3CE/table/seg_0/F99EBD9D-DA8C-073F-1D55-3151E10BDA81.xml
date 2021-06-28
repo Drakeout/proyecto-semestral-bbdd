@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F99EBD9D-DA8C-073F-1D55-3151E10BDA81" name="objetivos">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-06-28 00:24:35 UTC</createdTime>
+<generatorID>E2923056-17F8-E319-C9C1-AA4802B2B0BA</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_postulante" id="2F338DBA-6A49-88F5-58FA-D339748D33C8">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-06-28 00:24:35 UTC</createdTime>
+<generatorID>CB63159D-DCA0-3B00-1A09-CFFFE08FAFAD</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="54A8899C-1BA0-17F4-06CE-82B0C45987CD" referredColumn="511DF4B9-E5BA-EE26-EF90-8320EE56FEB5"/>
+</associations>
+</Column>
+<Column name="codigo_objetivo" id="3226B14C-6D04-7DB1-C7C5-D1A7F4E52F78">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-06-28 00:24:35 UTC</createdTime>
+<generatorID>F92FC709-B3B4-AA12-1206-6D388D71D0F8</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="objetivos" id="ACD409DF-862A-7CE7-6C05-1A4B67555BAC">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-06-28 00:24:35 UTC</createdTime>
+<generatorID>890BB0AF-9B0A-6B6A-857B-330959712EE3</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="interes" id="0FA17624-A551-A725-5385-9994A970FCC6">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-06-28 00:24:35 UTC</createdTime>
+<generatorID>5D26CFE9-1CBB-57D4-DDDE-59C62727818A</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="retorno" id="61F3CE50-A0B7-635C-0F4C-7B756D1C49C7">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-06-28 00:24:35 UTC</createdTime>
+<generatorID>CD0192E0-17CA-819B-AD1E-D440683793AD</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5C1B599A-0415-99E3-D29F-C34C2E595739" name="objetivos_PK">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-06-28 00:24:35 UTC</createdTime>
+<generatorID>00C79DC9-F522-7279-06AD-FEF9C551D04C</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F338DBA-6A49-88F5-58FA-D339748D33C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="12C97C09-D1C1-CDDE-3ABC-AFADD2420FF8" name="objetivos_PKv1">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-06-28 00:24:35 UTC</createdTime>
+<generatorID>7C9F66A3-D55D-C903-BDB3-BAC5DEDEDDB8</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3226B14C-6D04-7DB1-C7C5-D1A7F4E52F78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="190BF71C-A365-94DA-0126-E8A1CA5C52C5" name="objetivos_postulante_FK">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-06-28 00:24:35 UTC</createdTime>
+<generatorID>4A2FCCE0-D172-3855-C2C9-472664BEFE84</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F338DBA-6A49-88F5-58FA-D339748D33C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
