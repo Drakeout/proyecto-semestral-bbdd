@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="29C82DF0-9D37-40CC-C61F-9DD8213ED27E" name="estudios">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="927E223B-7BC0-D88B-71FF-65106ABE2C08" name="titulo">
 <createdBy>Felipe</createdBy>
-<createdTime>2021-06-27 23:50:32 UTC</createdTime>
+<createdTime>2021-06-28 00:00:09 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
 <item key="A57EF5A1-F812-2730-4397-91AB56F4C3CE" value="true"/>
@@ -11,14 +11,13 @@
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
 <growthPercent>0</growthPercent>
 <growthType>Year</growthType>
-<hierarchicalParent>D9D27ABA-6367-D33C-B085-4160F73F12F5</hierarchicalParent>
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="codigo_estudios" id="370BB1C6-59ED-8042-5DF8-619EE96AB8EB">
+<Attribute name="codigo_titulo" id="65D197A2-F05D-2309-5627-0C18A4B55798">
 <createdBy>Felipe</createdBy>
-<createdTime>2021-06-27 23:50:41 UTC</createdTime>
+<createdTime>2021-06-28 00:00:21 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
 <item key="A57EF5A1-F812-2730-4397-91AB56F4C3CE" value="true"/>
@@ -28,9 +27,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="pais_estudios" id="DC56DAAA-8835-C513-5CF3-A174AEC59E30">
+<Attribute name="tipo_estudio" id="903FACA2-641A-E6C5-FDA2-A920093384F6">
 <createdBy>Felipe</createdBy>
-<createdTime>2021-06-27 23:57:27 UTC</createdTime>
+<createdTime>2021-06-28 00:00:31 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
 <item key="A57EF5A1-F812-2730-4397-91AB56F4C3CE" value="true"/>
@@ -41,23 +40,22 @@
 <dataTypeSize>60 CHAR</dataTypeSize>
 <ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="dependencia_establecimiento" id="0E65FAD3-AEB8-142E-CD8C-756725F0B3AA">
+<Attribute name="institucion" id="2C7F4901-181F-B475-FE2E-9444FAEE8D5E">
 <createdBy>Felipe</createdBy>
-<createdTime>2021-06-27 23:57:57 UTC</createdTime>
+<createdTime>2021-06-28 00:00:43 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
 <item key="A57EF5A1-F812-2730-4397-91AB56F4C3CE" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>60 CHAR</dataTypeSize>
-<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>70 CHAR</dataTypeSize>
+<ownDataTypeParameters>70 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="tipo_establecimiento" id="14A00D2C-9C9E-5AEC-1F01-B5BF17159996">
+<Attribute name="nombre_carrera" id="F7AE8B52-3819-7B80-DACD-443787A827A1">
 <createdBy>Felipe</createdBy>
-<createdTime>2021-06-27 23:58:24 UTC</createdTime>
+<createdTime>2021-06-28 00:00:53 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
 <item key="A57EF5A1-F812-2730-4397-91AB56F4C3CE" value="true"/>
@@ -65,35 +63,47 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>60</dataTypeSize>
-<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<dataTypeSize>70 CHAR</dataTypeSize>
+<ownDataTypeParameters>70 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="tipo_ingreso" id="C6D71DF6-D34A-9A38-879E-DFD0BFF7DC09">
+<Attribute name="fecha_obtencion" id="FE15CD47-825C-CE12-4FB0-638AA91C0E65">
 <createdBy>Felipe</createdBy>
-<createdTime>2021-06-27 23:58:39 UTC</createdTime>
+<createdTime>2021-06-28 00:01:05 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
 <item key="A57EF5A1-F812-2730-4397-91AB56F4C3CE" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>60 CHAR</dataTypeSize>
-<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_postulante" id="36DA9C07-ADE0-91DF-1391-1553A653CA3D">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-06-28 00:16:27 UTC</createdTime>
+<generatorID>E6ED12F2-77DF-93BD-F1B4-6232681E4D01</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="A57EF5A1-F812-2730-4397-91AB56F4C3CE" value="true"/>
+</engineerTo>
+<referedAttribute>CB63159D-DCA0-3B00-1A09-CFFFE08FAFAD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="F7F50AD4-BFC8-9021-C9D9-BB1F8BE387AE" name="estudios PK">
+<identifier id="F9BE00FA-01A4-8731-D69E-352A602E34D0" name="titulo PK">
 <createdBy>Felipe</createdBy>
-<createdTime>2021-06-27 23:50:50 UTC</createdTime>
+<createdTime>2021-06-28 00:00:30 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
 <item key="A57EF5A1-F812-2730-4397-91AB56F4C3CE" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>370BB1C6-59ED-8042-5DF8-619EE96AB8EB</attributeRef>
+<attributeRef>65D197A2-F05D-2309-5627-0C18A4B55798</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
