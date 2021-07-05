@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="codigo_subespecialidad" id="0279CAA9-7997-CB88-0706-1D0A6AE5111B">
+<Attribute name="cod_subespecialidad" id="0279CAA9-7997-CB88-0706-1D0A6AE5111B">
 <createdBy>Felipe</createdBy>
 <createdTime>2021-06-28 00:09:44 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
@@ -180,7 +180,7 @@
 <dataTypeSize>70 CHAR</dataTypeSize>
 <ownDataTypeParameters>70 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="codigo_subarea" id="48FF5154-7F57-A7DD-8953-A28E96449304">
+<Attribute name="cod_subarea" id="48FF5154-7F57-A7DD-8953-A28E96449304">
 <createdBy>Felipe</createdBy>
 <createdTime>2021-06-28 00:18:03 UTC</createdTime>
 <generatorID>2E77CDD7-D173-33A0-AF3B-660A848BF5E5</generatorID>

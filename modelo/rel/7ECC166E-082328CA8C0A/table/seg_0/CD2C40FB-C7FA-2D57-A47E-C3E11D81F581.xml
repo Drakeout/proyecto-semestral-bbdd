@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CD2C40FB-C7FA-2D57-A47E-C3E11D81F581" name="direccion">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-03 16:11:22 UTC</createdTime>
+<generatorID>400AD089-B656-479E-6E8A-82FE1F1F4C14</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_direccion" id="805FCB8B-7C35-1668-31D2-D5670D95BA4E">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-03 16:11:22 UTC</createdTime>
+<generatorID>73630A4F-4DED-886D-ABBD-7D204E13BC9F</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cod_region" id="81C4EA86-6846-6721-EE29-59591B240A8D">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-03 16:11:22 UTC</createdTime>
+<generatorID>65A48387-C142-BD38-42A3-DD37C23A6FAB</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comuna" id="5ED04ADD-2FE7-0FE7-E9FC-AFD83DFEA2F3">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-03 16:11:22 UTC</createdTime>
+<generatorID>826DD511-69F1-78F4-EF6F-8CB76D22D868</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="2750568F-8170-C31B-E013-BD0BC270C8CA">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-03 16:11:22 UTC</createdTime>
+<generatorID>FB6FC7AD-6A07-CDF2-B47D-FE6489F1D8E9</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="postulante_cod_postulante" id="411968E5-DCE3-D670-C100-AB916FD0ED07">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-03 16:11:22 UTC</createdTime>
+<generatorID>32B62672-3126-D870-9911-0434BBF664D2</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3C67DE0C-CE6A-30F4-5B93-84BC7AE33B92" referredColumn="9B2F03AA-429E-65ED-F2A8-9382D7DFD405"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8AE809C6-AC41-E028-79E2-AEDE06278514" name="direccion_PK">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-03 16:11:22 UTC</createdTime>
+<generatorID>234E8276-D6E4-1B62-81AC-D1B7376EA7FF</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="805FCB8B-7C35-1668-31D2-D5670D95BA4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3D33FA02-B712-AA21-7DE6-683EB9E019E3" name="direccion_postulante_FK">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-03 16:11:22 UTC</createdTime>
+<generatorID>469A9618-5B1C-9682-6926-7EFC8210E5DC</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="411968E5-DCE3-D670-C100-AB916FD0ED07"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

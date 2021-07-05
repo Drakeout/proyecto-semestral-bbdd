@@ -4,7 +4,7 @@
 <createdTime>2021-06-27 23:41:17 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="A57EF5A1-F812-2730-4397-91AB56F4C3CE" value="true"/>
+<item key="7ECC166E-209A-1FD7-8507-082328CA8C0A" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,12 +15,12 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="codigo_postulante" id="CB63159D-DCA0-3B00-1A09-CFFFE08FAFAD">
+<Attribute name="cod_postulante" id="CB63159D-DCA0-3B00-1A09-CFFFE08FAFAD">
 <createdBy>Felipe</createdBy>
 <createdTime>2021-06-27 23:41:55 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="A57EF5A1-F812-2730-4397-91AB56F4C3CE" value="true"/>
+<item key="7ECC166E-209A-1FD7-8507-082328CA8C0A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,7 @@
 <createdTime>2021-06-27 23:42:56 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="A57EF5A1-F812-2730-4397-91AB56F4C3CE" value="true"/>
+<item key="7ECC166E-209A-1FD7-8507-082328CA8C0A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,7 +45,7 @@
 <createdTime>2021-06-27 23:43:16 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="A57EF5A1-F812-2730-4397-91AB56F4C3CE" value="true"/>
+<item key="7ECC166E-209A-1FD7-8507-082328CA8C0A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -58,7 +58,7 @@
 <createdTime>2021-06-27 23:43:30 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="A57EF5A1-F812-2730-4397-91AB56F4C3CE" value="true"/>
+<item key="7ECC166E-209A-1FD7-8507-082328CA8C0A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -71,7 +71,7 @@
 <createdTime>2021-06-27 23:43:44 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="A57EF5A1-F812-2730-4397-91AB56F4C3CE" value="true"/>
+<item key="7ECC166E-209A-1FD7-8507-082328CA8C0A" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -85,7 +85,7 @@
 <createdTime>2021-06-27 23:44:05 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="A57EF5A1-F812-2730-4397-91AB56F4C3CE" value="true"/>
+<item key="7ECC166E-209A-1FD7-8507-082328CA8C0A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -98,7 +98,7 @@
 <createdTime>2021-06-27 23:44:25 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="A57EF5A1-F812-2730-4397-91AB56F4C3CE" value="true"/>
+<item key="7ECC166E-209A-1FD7-8507-082328CA8C0A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -110,7 +110,7 @@
 <createdTime>2021-06-27 23:44:40 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="A57EF5A1-F812-2730-4397-91AB56F4C3CE" value="true"/>
+<item key="7ECC166E-209A-1FD7-8507-082328CA8C0A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -123,7 +123,7 @@
 <createdTime>2021-06-27 23:44:54 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="A57EF5A1-F812-2730-4397-91AB56F4C3CE" value="true"/>
+<item key="7ECC166E-209A-1FD7-8507-082328CA8C0A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -136,7 +136,7 @@
 <createdTime>2021-06-27 23:45:04 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="A57EF5A1-F812-2730-4397-91AB56F4C3CE" value="true"/>
+<item key="7ECC166E-209A-1FD7-8507-082328CA8C0A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -149,7 +149,7 @@
 <createdTime>2021-06-27 23:45:17 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="A57EF5A1-F812-2730-4397-91AB56F4C3CE" value="true"/>
+<item key="7ECC166E-209A-1FD7-8507-082328CA8C0A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -161,7 +161,7 @@
 <createdTime>2021-06-27 23:45:27 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="A57EF5A1-F812-2730-4397-91AB56F4C3CE" value="true"/>
+<item key="7ECC166E-209A-1FD7-8507-082328CA8C0A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -169,42 +169,15 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="codigo_institucion" id="DD437886-6C8C-1456-C4A2-106965D3ABF1">
-<createdBy>Felipe</createdBy>
-<createdTime>2021-06-28 00:15:01 UTC</createdTime>
-<generatorID>0E8ECA37-F4E2-1A73-AF0A-69699885AF61</generatorID>
-<ownerDesignName>modelo</ownerDesignName>
-<engineerTo>
-<item key="A57EF5A1-F812-2730-4397-91AB56F4C3CE" value="true"/>
-</engineerTo>
-<referedAttribute>6451F02A-7D2A-A6ED-9A93-CB31FB85CD83</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="codigo_puntaje" id="0E154658-E5B5-4923-12B1-045EC0D4508B">
-<createdBy>Felipe</createdBy>
-<createdTime>2021-06-28 00:17:53 UTC</createdTime>
-<generatorID>6357D5DA-9EAD-8A9C-D4D6-AAC8D006ECDB</generatorID>
-<ownerDesignName>modelo</ownerDesignName>
-<engineerTo>
-<item key="A57EF5A1-F812-2730-4397-91AB56F4C3CE" value="true"/>
-</engineerTo>
-<referedAttribute>C41525B7-551B-EBEF-C286-5805A76FDC5A</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="00C79DC9-F522-7279-06AD-FEF9C551D04C" name="postulante PK">
 <createdBy>Felipe</createdBy>
 <createdTime>2021-06-27 23:42:47 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="A57EF5A1-F812-2730-4397-91AB56F4C3CE" value="true"/>
+<item key="7ECC166E-209A-1FD7-8507-082328CA8C0A" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

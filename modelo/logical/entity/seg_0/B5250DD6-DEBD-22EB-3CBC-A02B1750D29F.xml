@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="codigo_experiencia_laboral" id="5A5077BA-C4E6-998B-830B-175B90B32DE8">
+<Attribute name="cod_experiencia" id="5A5077BA-C4E6-998B-830B-175B90B32DE8">
 <createdBy>Felipe</createdBy>
 <createdTime>2021-06-28 00:04:03 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
@@ -78,7 +78,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="codigo_postulante" id="F9C9A814-3362-9EE6-D37D-6F48FED9BACC">
+<Attribute name="cod_postulante" id="F9C9A814-3362-9EE6-D37D-6F48FED9BACC">
 <createdBy>Felipe</createdBy>
 <createdTime>2021-06-28 00:17:23 UTC</createdTime>
 <generatorID>CB4BD331-6576-604E-2450-3696B318AEEA</generatorID>

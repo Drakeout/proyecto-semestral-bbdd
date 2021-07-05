@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="codigo_contacto" id="0B0A7AC9-7686-7547-166F-EC4820DBDAB2">
+<Attribute name="cod_contacto" id="0B0A7AC9-7686-7547-166F-EC4820DBDAB2">
 <createdBy>Felipe</createdBy>
 <createdTime>2021-06-27 23:59:10 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
@@ -79,7 +79,7 @@
 <dataTypeSize>70 CHAR</dataTypeSize>
 <ownDataTypeParameters>70 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="codigo_postulante" id="FEE302D7-B88E-73A6-9CD6-D40085EEBC3C">
+<Attribute name="cod_postulante" id="FEE302D7-B88E-73A6-9CD6-D40085EEBC3C">
 <createdBy>Felipe</createdBy>
 <createdTime>2021-06-28 00:16:39 UTC</createdTime>
 <generatorID>D081AA92-3E04-6F84-BF85-0E64790DDFD9</generatorID>

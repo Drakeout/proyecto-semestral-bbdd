@@ -4,24 +4,23 @@
 <createdTime>2021-06-27 23:45:46 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="A57EF5A1-F812-2730-4397-91AB56F4C3CE" value="true"/>
+<item key="7ECC166E-209A-1FD7-8507-082328CA8C0A" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
 <growthPercent>0</growthPercent>
 <growthType>Year</growthType>
-<hierarchicalParent>D9D27ABA-6367-D33C-B085-4160F73F12F5</hierarchicalParent>
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="codigo_objetivo" id="F92FC709-B3B4-AA12-1206-6D388D71D0F8">
+<Attribute name="cod_objetivo" id="F92FC709-B3B4-AA12-1206-6D388D71D0F8">
 <createdBy>Felipe</createdBy>
 <createdTime>2021-06-27 23:45:54 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="A57EF5A1-F812-2730-4397-91AB56F4C3CE" value="true"/>
+<item key="7ECC166E-209A-1FD7-8507-082328CA8C0A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,7 +32,7 @@
 <createdTime>2021-06-27 23:46:11 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="A57EF5A1-F812-2730-4397-91AB56F4C3CE" value="true"/>
+<item key="7ECC166E-209A-1FD7-8507-082328CA8C0A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,7 +44,7 @@
 <createdTime>2021-06-27 23:46:25 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="A57EF5A1-F812-2730-4397-91AB56F4C3CE" value="true"/>
+<item key="7ECC166E-209A-1FD7-8507-082328CA8C0A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -57,11 +56,25 @@
 <createdTime>2021-06-27 23:46:40 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="A57EF5A1-F812-2730-4397-91AB56F4C3CE" value="true"/>
+<item key="7ECC166E-209A-1FD7-8507-082328CA8C0A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_postulante" id="CBC38253-5E64-1DAE-7F8E-A3152A134E9D">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-06-28 15:52:29 UTC</createdTime>
+<generatorID>4D3BCE5E-8E6E-3D4E-F539-63A46629387D</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="7ECC166E-209A-1FD7-8507-082328CA8C0A" value="true"/>
+</engineerTo>
+<referedAttribute>CB63159D-DCA0-3B00-1A09-CFFFE08FAFAD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -71,7 +84,7 @@
 <createdTime>2021-06-27 23:46:10 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="A57EF5A1-F812-2730-4397-91AB56F4C3CE" value="true"/>
+<item key="7ECC166E-209A-1FD7-8507-082328CA8C0A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

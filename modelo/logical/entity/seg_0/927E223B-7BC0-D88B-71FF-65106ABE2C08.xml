@@ -4,7 +4,7 @@
 <createdTime>2021-06-28 00:00:09 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="A57EF5A1-F812-2730-4397-91AB56F4C3CE" value="true"/>
+<item key="7ECC166E-209A-1FD7-8507-082328CA8C0A" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,12 +15,12 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="codigo_titulo" id="65D197A2-F05D-2309-5627-0C18A4B55798">
+<Attribute name="cod_titulo" id="65D197A2-F05D-2309-5627-0C18A4B55798">
 <createdBy>Felipe</createdBy>
 <createdTime>2021-06-28 00:00:21 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="A57EF5A1-F812-2730-4397-91AB56F4C3CE" value="true"/>
+<item key="7ECC166E-209A-1FD7-8507-082328CA8C0A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,7 @@
 <createdTime>2021-06-28 00:00:31 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="A57EF5A1-F812-2730-4397-91AB56F4C3CE" value="true"/>
+<item key="7ECC166E-209A-1FD7-8507-082328CA8C0A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,7 +45,7 @@
 <createdTime>2021-06-28 00:00:43 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="A57EF5A1-F812-2730-4397-91AB56F4C3CE" value="true"/>
+<item key="7ECC166E-209A-1FD7-8507-082328CA8C0A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -58,7 +58,7 @@
 <createdTime>2021-06-28 00:00:53 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="A57EF5A1-F812-2730-4397-91AB56F4C3CE" value="true"/>
+<item key="7ECC166E-209A-1FD7-8507-082328CA8C0A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -71,20 +71,20 @@
 <createdTime>2021-06-28 00:01:05 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="A57EF5A1-F812-2730-4397-91AB56F4C3CE" value="true"/>
+<item key="7ECC166E-209A-1FD7-8507-082328CA8C0A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="codigo_postulante" id="36DA9C07-ADE0-91DF-1391-1553A653CA3D">
+<Attribute name="cod_postulante" id="36DA9C07-ADE0-91DF-1391-1553A653CA3D">
 <createdBy>Felipe</createdBy>
 <createdTime>2021-06-28 00:16:27 UTC</createdTime>
 <generatorID>E6ED12F2-77DF-93BD-F1B4-6232681E4D01</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="A57EF5A1-F812-2730-4397-91AB56F4C3CE" value="true"/>
+<item key="7ECC166E-209A-1FD7-8507-082328CA8C0A" value="true"/>
 </engineerTo>
 <referedAttribute>CB63159D-DCA0-3B00-1A09-CFFFE08FAFAD</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -99,7 +99,7 @@
 <createdTime>2021-06-28 00:00:30 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="A57EF5A1-F812-2730-4397-91AB56F4C3CE" value="true"/>
+<item key="7ECC166E-209A-1FD7-8507-082328CA8C0A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

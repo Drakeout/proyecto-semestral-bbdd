@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3846BDF7-126A-DAEB-014C-120D5E9BE082" name="estudios">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-06-28 15:53:39 UTC</createdTime>
+<generatorID>29C82DF0-9D37-40CC-C61F-9DD8213ED27E</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_estudios" id="ADD89F96-2865-8436-01E7-87C41FF115D0">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-06-28 15:53:39 UTC</createdTime>
+<generatorID>370BB1C6-59ED-8042-5DF8-619EE96AB8EB</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pais_estudios" id="0CBA56F0-DF34-A806-A62D-08747051F07C">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-06-28 15:53:39 UTC</createdTime>
+<generatorID>DC56DAAA-8835-C513-5CF3-A174AEC59E30</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dependencia_establecimiento" id="DEF64B96-3AB0-6822-7AAD-2EC2D75DB425">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-06-28 15:53:39 UTC</createdTime>
+<generatorID>0E65FAD3-AEB8-142E-CD8C-756725F0B3AA</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_establecimiento" id="9401A4A7-C969-92B1-8AC1-0A7009CA47D2">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-06-28 15:53:39 UTC</createdTime>
+<generatorID>14A00D2C-9C9E-5AEC-1F01-B5BF17159996</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_ingreso" id="6BD0CD35-E262-9BEC-8645-BC6CA852FF13">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-06-28 15:53:39 UTC</createdTime>
+<generatorID>C6D71DF6-D34A-9A38-879E-DFD0BFF7DC09</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="postulante_cod_postulante" id="37E81AEE-EDA2-9285-DFE0-B312AD5BD119">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-06-28 15:53:39 UTC</createdTime>
+<generatorID>B95AEC9F-23F5-C583-9AC7-5FE118269A4B</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="594CDFC0-4868-B548-492A-B57A1424930D" referredColumn="9B2F03AA-429E-65ED-F2A8-9382D7DFD405"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B4152556-2340-EC5A-2682-20DCCB680E10" name="estudios_PK">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-06-28 15:53:39 UTC</createdTime>
+<generatorID>F7F50AD4-BFC8-9021-C9D9-BB1F8BE387AE</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ADD89F96-2865-8436-01E7-87C41FF115D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3CD29B93-8DFA-D911-3FE3-B0ECD211BC96" name="estudios__IDX">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-06-28 15:53:39 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>38CDD52C-3FFA-4834-8058-B57CD47A0AC0</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="37E81AEE-EDA2-9285-DFE0-B312AD5BD119"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="743C5324-02D8-E8F3-0431-425B1B92F0B7" name="estudios_postulante_FK">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-06-28 15:53:39 UTC</createdTime>
+<generatorID>38CDD52C-3FFA-4834-8058-B57CD47A0AC0</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37E81AEE-EDA2-9285-DFE0-B312AD5BD119"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

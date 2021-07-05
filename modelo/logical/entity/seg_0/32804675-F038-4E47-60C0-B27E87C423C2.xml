@@ -4,7 +4,7 @@
 <createdTime>2021-06-28 00:01:18 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="A57EF5A1-F812-2730-4397-91AB56F4C3CE" value="true"/>
+<item key="7ECC166E-209A-1FD7-8507-082328CA8C0A" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,12 +15,12 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="codigo_institucion" id="6451F02A-7D2A-A6ED-9A93-CB31FB85CD83">
+<Attribute name="cod_institucion" id="6451F02A-7D2A-A6ED-9A93-CB31FB85CD83">
 <createdBy>Felipe</createdBy>
 <createdTime>2021-06-28 00:01:40 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="A57EF5A1-F812-2730-4397-91AB56F4C3CE" value="true"/>
+<item key="7ECC166E-209A-1FD7-8507-082328CA8C0A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,7 @@
 <createdTime>2021-06-28 00:01:50 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="A57EF5A1-F812-2730-4397-91AB56F4C3CE" value="true"/>
+<item key="7ECC166E-209A-1FD7-8507-082328CA8C0A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,7 +45,7 @@
 <createdTime>2021-06-28 00:01:59 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="A57EF5A1-F812-2730-4397-91AB56F4C3CE" value="true"/>
+<item key="7ECC166E-209A-1FD7-8507-082328CA8C0A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -58,7 +58,7 @@
 <createdTime>2021-06-28 00:02:11 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="A57EF5A1-F812-2730-4397-91AB56F4C3CE" value="true"/>
+<item key="7ECC166E-209A-1FD7-8507-082328CA8C0A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -70,36 +70,22 @@
 <createdTime>2021-06-28 00:02:21 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="A57EF5A1-F812-2730-4397-91AB56F4C3CE" value="true"/>
+<item key="7ECC166E-209A-1FD7-8507-082328CA8C0A" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="codigo_postulante" id="736DFB2E-6EDB-D06A-177B-90521618EB24">
+<Attribute name="cod_postulante" id="736DFB2E-6EDB-D06A-177B-90521618EB24">
 <createdBy>Felipe</createdBy>
 <createdTime>2021-06-28 00:14:44 UTC</createdTime>
 <generatorID>0E8ECA37-F4E2-1A73-AF0A-69699885AF61</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="A57EF5A1-F812-2730-4397-91AB56F4C3CE" value="true"/>
+<item key="7ECC166E-209A-1FD7-8507-082328CA8C0A" value="true"/>
 </engineerTo>
 <referedAttribute>CB63159D-DCA0-3B00-1A09-CFFFE08FAFAD</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="codigo_subarea" id="9E4C3BC5-B5E2-D162-5A54-2B27EBD7B874">
-<createdBy>Felipe</createdBy>
-<createdTime>2021-06-28 00:16:03 UTC</createdTime>
-<generatorID>83E747FE-9E84-D5DF-5E8C-359CC3AEBB80</generatorID>
-<ownerDesignName>modelo</ownerDesignName>
-<engineerTo>
-<item key="A57EF5A1-F812-2730-4397-91AB56F4C3CE" value="true"/>
-</engineerTo>
-<referedAttribute>B58DFE84-3843-200F-4788-3DC82729AAF2</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -112,7 +98,7 @@
 <createdTime>2021-06-28 00:01:49 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="A57EF5A1-F812-2730-4397-91AB56F4C3CE" value="true"/>
+<item key="7ECC166E-209A-1FD7-8507-082328CA8C0A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
