@@ -1,4 +1,4 @@
-
+--2.2.2.	DETALLE DE POSTULANTES A LA BECA
 select (SUBSTR(run,1,2 )||extract(day from fecha_nacimiento )||SUBSTR(run,3,6 )|| to_char(fecha_nacimiento, 'mon')||'-'||SUBSTR(run, 9,9 )||SUBSTR(extract(year from fecha_nacimiento ), 4,4)) as "Run Postulante",
 primer_nombre||' '||apellido_paterno||' '||apellido_materno as "Nombre Postulante",
 fecha_postulacion "Fecha Postulación", estado_civil.estado_civil as "Estado Civil", direccion.direccion ||' '|| direccion.comuna||' '||region.region "Dirección",
