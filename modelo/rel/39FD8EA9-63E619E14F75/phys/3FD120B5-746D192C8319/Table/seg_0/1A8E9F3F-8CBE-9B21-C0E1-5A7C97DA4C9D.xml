@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="SUBESPECIALIDAD" directorySegmentName="seg_0" id="1A8E9F3F-8CBE-9B21-C0E1-5A7C97DA4C9D">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<schemaObject>F488149D-ABB1-155C-CE67-70C41B3A9F51</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>6503DA1D-3F3E-22B2-33E2-BC13C3E93102</segment>
+<tableSpace>ED4BE645-B60D-748D-A216-78CA5EB9B70D</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="REQUISITO" id="26D8584B-43EC-0E6C-56B1-3B1418DD0877">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBAREA_COD_SUBAREA" id="61B657A4-E869-F298-6B18-BDB9C45C9D8C">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MODULOS" id="77251AAB-A3F9-7C00-A772-FBE35EBBF05F">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<defaultValue>1</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE" id="80A49EAF-392C-B402-D0C5-2A46FCA381AB">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DURACION" id="A23FD9AA-393A-12F0-FB70-9C46841B44DA">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IDIOMA" id="CAB99B21-545B-6C1A-F15B-8378F99A641A">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COD_SUBESPECIALIDAD" id="DA8770FF-51A3-B9B9-33CB-878BBE2AE82F">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EXPERIENCIA_LABORAL" id="E3A40DBA-1660-41E8-538F-F75D1D9B969D">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUPOS" id="FEE053FA-4B22-7530-68FE-C60CCA583095">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="SUBESPECIALIDAD__IDX" id="B075D363-714A-D66F-8A92-2AD38EADFB23">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<schemaObject>F488149D-ABB1-155C-CE67-70C41B3A9F51</schemaObject>
+<computeStatistics>YES</computeStatistics>
+<logging></logging>
+<segment>0B8A2856-B73C-BBC4-1D55-C2E83C78222E</segment>
+<tableSpace>ED4BE645-B60D-748D-A216-78CA5EB9B70D</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SUBESPECIALIDAD_SUBAREA_FK" id="07D73146-F144-FBB0-0620-A77D8E607A84">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+</TableProxyOraclev12c>

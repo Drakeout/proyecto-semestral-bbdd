@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="bbdd-script-08-02_Domains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_200 CHAR" id="31E178E1-7B74-E425-6276-3AC0DE55C049">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<fileName>bbdd-script-08-02_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_70 CHAR" id="55074AD0-D3FE-81D7-67CF-9936C1FDB563">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>70 CHAR</dataTypeSize>
+<fileName>bbdd-script-08-02_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_30 BYTE" id="B144FEE0-65E4-43AB-1E89-CF93A257DDED">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<fileName>bbdd-script-08-02_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_*_0_0" id="BC88562F-47D5-6406-A07D-309409F45E4F">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>bbdd-script-08-02_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="BLOB_0_0_0" id="C60C7C13-1909-683C-E952-F537672C3A37">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>bbdd-script-08-02_Domains</fileName>
+<logicalDatatype>LOGDT029</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_90 BYTE" id="C96C4D1A-48D0-FD89-7B7F-8D78BF4932E3">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>90 BYTE</dataTypeSize>
+<fileName>bbdd-script-08-02_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_60 BYTE" id="CF7C28B8-6DF9-9BEF-CEBC-6096CA90562E">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>60 BYTE</dataTypeSize>
+<fileName>bbdd-script-08-02_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_60 CHAR" id="E3297D11-06C6-91B5-432D-B88B48E28191">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<fileName>bbdd-script-08-02_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Date_0_0_0" id="E7BE1FF9-4322-C5A5-73BA-BA02B41519A9">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>bbdd-script-08-02_Domains</fileName>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_1 BYTE" id="E8AE02BE-C679-CB0D-48A1-D5A8987ACCFA">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<fileName>bbdd-script-08-02_Domains</fileName>
+<logicalDatatype>LOGDT025</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_200 BYTE" id="E8E31317-9587-F1B7-7BF6-7C204C128FDD">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<fileName>bbdd-script-08-02_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_11 CHAR" id="F1499709-A0AF-6459-A09B-F8D63E1565B7">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<fileName>bbdd-script-08-02_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_30 CHAR" id="F3D2C54A-78A0-F358-618A-DCC7C6C25634">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<fileName>bbdd-script-08-02_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_40 BYTE" id="FE2789F0-A4F5-D188-BD8F-8F9EDC498261">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<fileName>bbdd-script-08-02_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

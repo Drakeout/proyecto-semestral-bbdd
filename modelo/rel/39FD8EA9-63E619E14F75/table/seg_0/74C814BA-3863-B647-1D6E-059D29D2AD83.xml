@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="74C814BA-3863-B647-1D6E-059D29D2AD83" schemaObject="F488149D-ABB1-155C-CE67-70C41B3A9F51" name="LINEA_INVESTIGACION">
+<sourceDDLFile>bbdd-script-08-02.sql</sourceDDLFile>
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<importedID>A5C653BC-01F4-9AF6-AA05-D34BEE3D97D3</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_INVESTIGACION" id="85581828-CB22-E9E4-BF2A-1D2D1F2D9A57">
+<sourceDDLFile>bbdd-script-08-02.sql</sourceDDLFile>
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<importedID>8D519A3B-0D85-7060-F1A6-9B0609D14C5F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BC88562F-47D5-6406-A07D-309409F45E4F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LINEA_1" id="F2A7AAED-C13B-69D6-2615-CCCFAF68BB3A">
+<sourceDDLFile>bbdd-script-08-02.sql</sourceDDLFile>
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<importedID>B2A6B48D-55F9-AFF7-7DCD-E84F339F6785</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>31E178E1-7B74-E425-6276-3AC0DE55C049</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LINEA_2" id="173F482C-BD91-812B-BDE6-E646A403C0BE">
+<sourceDDLFile>bbdd-script-08-02.sql</sourceDDLFile>
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<importedID>E9309337-9F47-FA6F-E359-62CEFDE3934B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>31E178E1-7B74-E425-6276-3AC0DE55C049</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LINEA_3" id="CA860F2C-CE78-8CD1-77DC-352D7E2FD463">
+<sourceDDLFile>bbdd-script-08-02.sql</sourceDDLFile>
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<importedID>1D3FAD15-6B5C-6D30-9115-AD1E60E91DAC</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>31E178E1-7B74-E425-6276-3AC0DE55C049</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DICIPLINA_PRINCIPAL" id="292C9E69-6CAE-7180-886F-5EF3E8AB5D05">
+<sourceDDLFile>bbdd-script-08-02.sql</sourceDDLFile>
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<importedID>F3A36AC9-68DB-FBF5-9CAB-D645BF339C67</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>31E178E1-7B74-E425-6276-3AC0DE55C049</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POSTULANTE_COD_POSTULANTE" id="57D11E6C-26AC-FCFD-4296-1EE15C163884">
+<sourceDDLFile>bbdd-script-08-02.sql</sourceDDLFile>
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<importedID>A3928392-636B-44E1-D5DC-0EEFA2249031</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BC88562F-47D5-6406-A07D-309409F45E4F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="11F06DE5-009F-2F44-BAB6-98ED7EA778CE" referredColumn="E91D0CEF-C73F-1346-6EF4-6E55641CDEB7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="03507151-A0D8-52EE-E282-66E562CEA078" name="LINEA_INVESTIGACION_PK">
+<sourceDDLFile>bbdd-script-08-02.sql</sourceDDLFile>
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<importedID>129DFB3E-97A9-53BD-59CE-E7C6D11C2E6A</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85581828-CB22-E9E4-BF2A-1D2D1F2D9A57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5BEA67AF-D026-7A91-2555-9D63AFD22A57" schemaObject="F488149D-ABB1-155C-CE67-70C41B3A9F51" name="LINEA_INVESTIGACION__IDX">
+<sourceDDLFile>bbdd-script-08-02.sql</sourceDDLFile>
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<importedID>F6EC598E-CFFF-3D1F-CDE8-F5BD3EF0B876</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57D11E6C-26AC-FCFD-4296-1EE15C163884"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62551DAC-FBC9-8B14-557F-7E4377C4B51C" schemaObject="F488149D-ABB1-155C-CE67-70C41B3A9F51" name="LINEA_INVESTIGACION_PK">
+<sourceDDLFile>bbdd-script-08-02.sql</sourceDDLFile>
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<importedID>4DEFC1EB-4DBC-BF17-E9DF-16514DCC124C</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85581828-CB22-E9E4-BF2A-1D2D1F2D9A57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FD253A96-F38F-D109-488E-A2488298FA55" name="LINEA_INVEST_POSTULANTE_FK">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57D11E6C-26AC-FCFD-4296-1EE15C163884"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

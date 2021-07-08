@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="POSTULANTE" directorySegmentName="seg_0" id="58576284-08DA-2F40-4888-7E8DBBEF3D14">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<schemaObject>F488149D-ABB1-155C-CE67-70C41B3A9F51</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>6503DA1D-3F3E-22B2-33E2-BC13C3E93102</segment>
+<tableSpace>ED4BE645-B60D-748D-A216-78CA5EB9B70D</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FECHA_NACIMIENTO" id="19E7CF08-D8BD-2078-E9F6-9C0A4939B23B">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APELLIDO_PATERNO" id="23EC8232-92DA-FA07-E16B-E0C547901D49">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APELLIDO_MATERNO" id="277CC5B9-AA73-0238-5548-9B88D505A0ED">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NACIONALIDAD" id="74957123-EBC7-F4B5-5DDB-D9BCC707A13E">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RUN" id="8FEFC888-0EC1-634A-0CBE-12095ECC157E">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_POSTULACION" id="9179E75F-A044-7BD5-1757-00380B4B8818">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRIMER_NOMBRE" id="ADDF6E3B-555C-8ACC-DA77-99AFCC30DC71">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SEXO" id="E2A86F1A-ECB7-4B4D-149B-B59F4801BC8E">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COD_POSTULANTE" id="E91D0CEF-C73F-1346-6EF4-6E55641CDEB7">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PASAPORTE_VISA" id="F08258D4-1AEC-6D53-D19C-61B6E6E84F25">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SEGUNDO_NOMBRE" id="FD663F55-01C4-E888-2DBA-B65BE3E02044">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="POSTULANTE_PK" id="1045F878-2A40-F704-20B8-FFAA684AFC38">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<schemaObject>F488149D-ABB1-155C-CE67-70C41B3A9F51</schemaObject>
+<computeStatistics>YES</computeStatistics>
+<logging></logging>
+<segment>0B8A2856-B73C-BBC4-1D55-C2E83C78222E</segment>
+<tableSpace>ED4BE645-B60D-748D-A216-78CA5EB9B70D</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="POSTULANTE_PK" id="CCA1B90F-BBBB-5453-19B0-CA777FF5C94C">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<computeStatistics>YES</computeStatistics>
+<logging></logging>
+<segment>A08E5180-7793-E38B-E87F-13C7F648EBDC</segment>
+<tableSpace>ED4BE645-B60D-748D-A216-78CA5EB9B70D</tableSpace>
+<indexSegment>A08E5180-7793-E38B-E87F-13C7F648EBDC</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

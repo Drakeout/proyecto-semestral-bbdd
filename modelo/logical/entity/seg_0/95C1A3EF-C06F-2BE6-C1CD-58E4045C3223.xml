@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="95C1A3EF-C06F-2BE6-C1CD-58E4045C3223" name="TITULO">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:52:47 UTC</createdTime>
+<generatorID>225A4EAC-3B73-8F41-CE56-E6E558534C1C</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="39FD8EA9-B7FD-BD3F-AD5C-63E619E14F75" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD TITULO" id="75C8F46C-DA48-5643-EC19-12834A8E2E08">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:52:47 UTC</createdTime>
+<generatorID>E532FD00-0E9C-8914-054D-8F48DC883E41</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="39FD8EA9-B7FD-BD3F-AD5C-63E619E14F75" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BC88562F-47D5-6406-A07D-309409F45E4F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO ESTUDIO" id="17790E8A-93A7-1ABF-FCA0-DBEA08AE45FF">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:52:47 UTC</createdTime>
+<generatorID>D6F87B7D-D17B-3D1F-2F6E-E4ED193B6108</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="39FD8EA9-B7FD-BD3F-AD5C-63E619E14F75" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E3297D11-06C6-91B5-432D-B88B48E28191</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INSTITUCION" id="8E3D92C9-917F-F793-E16D-8C05D71F8FBD">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:52:47 UTC</createdTime>
+<generatorID>4449C0AB-938C-4E3A-F682-402A844E5A30</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="39FD8EA9-B7FD-BD3F-AD5C-63E619E14F75" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>55074AD0-D3FE-81D7-67CF-9936C1FDB563</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE CARRERA" id="C9B8174E-23FB-D7FA-49B8-F0E16F96D5E3">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:52:47 UTC</createdTime>
+<generatorID>F8021AB1-985C-351C-4E01-F8E2E40271B2</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="39FD8EA9-B7FD-BD3F-AD5C-63E619E14F75" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>55074AD0-D3FE-81D7-67CF-9936C1FDB563</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA OBTENCION" id="B6C16EB2-10E6-3E9E-ADD0-C7B833CD5493">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:52:47 UTC</createdTime>
+<generatorID>80577FFE-8371-8CAC-50E3-CB4FC51945C9</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="39FD8EA9-B7FD-BD3F-AD5C-63E619E14F75" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>E7BE1FF9-4322-C5A5-73BA-BA02B41519A9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="POSTULANTE COD POSTULANTE" id="7DF6D925-9E13-E0F8-05C7-8A32CE504186">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:52:47 UTC</createdTime>
+<generatorID>21AA37AF-D625-8D9A-A125-0FA231B23B49</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="39FD8EA9-B7FD-BD3F-AD5C-63E619E14F75" value="true"/>
+</engineerTo>
+<referedAttribute>564DE5EF-E6D6-7317-925C-3D8CFDAB3F8B</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BC88562F-47D5-6406-A07D-309409F45E4F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="87A85622-55FD-F703-0542-3BC50E87F339" name="TITULO PK">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:52:47 UTC</createdTime>
+<generatorID>BCB7AFC3-E432-95D3-2A16-12EE5EA803FB</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="39FD8EA9-B7FD-BD3F-AD5C-63E619E14F75" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>75C8F46C-DA48-5643-EC19-12834A8E2E08</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

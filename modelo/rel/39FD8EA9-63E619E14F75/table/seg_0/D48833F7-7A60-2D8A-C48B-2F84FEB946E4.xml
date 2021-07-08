@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D48833F7-7A60-2D8A-C48B-2F84FEB946E4" schemaObject="F488149D-ABB1-155C-CE67-70C41B3A9F51" name="DIRECCION">
+<sourceDDLFile>bbdd-script-08-02.sql</sourceDDLFile>
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<importedID>D7224723-5189-AF2A-AA0B-D50397DB07EB</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_DIRECCION" id="A15A08A3-3A9D-D61B-2F0D-DA45BA5D6A20">
+<sourceDDLFile>bbdd-script-08-02.sql</sourceDDLFile>
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<importedID>49602AD6-FDC2-0501-0863-98107F3BF2EB</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BC88562F-47D5-6406-A07D-309409F45E4F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_REGION" id="FB7B638D-15FC-7A7E-4D82-49B6B4C177EB">
+<sourceDDLFile>bbdd-script-08-02.sql</sourceDDLFile>
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<importedID>672DF360-9ADC-45A4-5B4B-15101FD476F5</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BC88562F-47D5-6406-A07D-309409F45E4F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMUNA" id="82A9691C-5904-C7E3-6831-22D7E389FF91">
+<sourceDDLFile>bbdd-script-08-02.sql</sourceDDLFile>
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<importedID>10565053-0579-9901-46FE-39921956515D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F3D2C54A-78A0-F358-618A-DCC7C6C25634</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="66026A74-2615-ED6F-61F5-FB170E60A4B6">
+<sourceDDLFile>bbdd-script-08-02.sql</sourceDDLFile>
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<importedID>7DDF5256-E71A-84C4-FC7F-EBA061F156C7</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F3D2C54A-78A0-F358-618A-DCC7C6C25634</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POSTULANTE_COD_POSTULANTE" id="BA6AA086-50E3-D5EC-B937-0EA6CBB3CEAE">
+<sourceDDLFile>bbdd-script-08-02.sql</sourceDDLFile>
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<importedID>37C2852A-C3D0-C934-EE3B-F8215C282A64</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BC88562F-47D5-6406-A07D-309409F45E4F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="10A43495-7C9F-C498-8744-31343883438D" referredColumn="E91D0CEF-C73F-1346-6EF4-6E55641CDEB7"/>
+</associations>
+</Column>
+<Column name="REGION_COD_REGION" id="9CBDF07F-E502-BD17-3B7B-AA27AEC3A1F4">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:47:33 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BC88562F-47D5-6406-A07D-309409F45E4F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5A2FA7A0-8029-F3D2-B2F8-A3E58D27F5A0" referredColumn="1C87EB0B-7142-8A81-AADC-DCC76F92A0FE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="84FB7565-C9F6-019E-1AD7-5C8C5F02F3D9" name="DIRECCION_PK">
+<sourceDDLFile>bbdd-script-08-02.sql</sourceDDLFile>
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<importedID>0BE3D1D9-774E-8950-AB2E-3D608BE17089</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A15A08A3-3A9D-D61B-2F0D-DA45BA5D6A20"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="821A7744-CADD-E9A2-AAC4-249B5755F4AF" schemaObject="F488149D-ABB1-155C-CE67-70C41B3A9F51" name="DIRECCION_PK">
+<sourceDDLFile>bbdd-script-08-02.sql</sourceDDLFile>
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<importedID>75D7AAB8-1D93-F2E6-6C7B-3EEBB0C37FD6</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A15A08A3-3A9D-D61B-2F0D-DA45BA5D6A20"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B85F622-5904-85E7-ABF1-D2A7DED595C3" name="DIRECCION_POSTULANTE_FK">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA6AA086-50E3-D5EC-B937-0EA6CBB3CEAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE907636-E403-8ECC-978A-04DB6AB585FA" name="DIRECCION_REGION_FK">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:47:33 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9CBDF07F-E502-BD17-3B7B-AA27AEC3A1F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

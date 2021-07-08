@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B42E08A8-F73E-D83E-9077-5D02F9F98295" schemaObject="F488149D-ABB1-155C-CE67-70C41B3A9F51" name="PROYECTO">
+<sourceDDLFile>bbdd-script-08-02.sql</sourceDDLFile>
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<importedID>B8CC8455-2153-D349-C645-E821CA1D2D68</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_PROYECTO" id="AB7FCA3C-C8F9-9199-F92D-83ED580BAB7C">
+<sourceDDLFile>bbdd-script-08-02.sql</sourceDDLFile>
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<importedID>B2027CCD-2089-A059-F009-BE3C3B5826D7</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BC88562F-47D5-6406-A07D-309409F45E4F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TITULO" id="458197C5-F1A9-E07A-56C1-E8441A894260">
+<sourceDDLFile>bbdd-script-08-02.sql</sourceDDLFile>
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<importedID>2E34F657-AD19-CC50-A1FB-79C1B2C0B2B0</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>55074AD0-D3FE-81D7-67CF-9936C1FDB563</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POSTULANTE_COD_POSTULANTE" id="572E3483-1964-8835-4CD5-0B0573BF37C7">
+<sourceDDLFile>bbdd-script-08-02.sql</sourceDDLFile>
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<importedID>29D9DF37-04F1-140C-3039-0542CCD18948</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BC88562F-47D5-6406-A07D-309409F45E4F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF0F7D7F-94DA-DCDC-4CFA-6B0A1040810F" referredColumn="E91D0CEF-C73F-1346-6EF4-6E55641CDEB7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="971A201B-4320-10A5-2079-0E61348E4705" name="PROYECTO_PK">
+<sourceDDLFile>bbdd-script-08-02.sql</sourceDDLFile>
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<importedID>19CE79C7-5201-9458-EE55-10CA3684FF20</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB7FCA3C-C8F9-9199-F92D-83ED580BAB7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E7B38B54-27AC-FDB7-F7B9-CE5D42713281" schemaObject="F488149D-ABB1-155C-CE67-70C41B3A9F51" name="PROYECTO_PK">
+<sourceDDLFile>bbdd-script-08-02.sql</sourceDDLFile>
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<importedID>AE200CBB-DD2A-3822-F1E5-BA659A675AFF</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB7FCA3C-C8F9-9199-F92D-83ED580BAB7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB888D23-7E3F-FD04-6B63-07BDBE6437C5" name="PROYECTO_POSTULANTE_FK">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="572E3483-1964-8835-4CD5-0B0573BF37C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="12A935A7-20E0-FBAC-DAEB-4308D34A7550" name="REGION">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:52:47 UTC</createdTime>
+<generatorID>5CBD1A63-3479-2898-1592-68F7EA7D7BE1</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="39FD8EA9-B7FD-BD3F-AD5C-63E619E14F75" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD REGION" id="AD742054-22D9-6839-B7C3-9220C52379EA">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:52:47 UTC</createdTime>
+<generatorID>1C87EB0B-7142-8A81-AADC-DCC76F92A0FE</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="39FD8EA9-B7FD-BD3F-AD5C-63E619E14F75" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BC88562F-47D5-6406-A07D-309409F45E4F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="REGION" id="D7287F17-0FFA-2DBF-1081-0AE35E9706D8">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:52:47 UTC</createdTime>
+<generatorID>F7C558F8-D19A-B8B2-C4BA-A85824282235</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="39FD8EA9-B7FD-BD3F-AD5C-63E619E14F75" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>FE2789F0-A4F5-D188-BD8F-8F9EDC498261</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="922DDF42-B074-1762-610F-9641D5A185DF" name="REGION PK">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:52:47 UTC</createdTime>
+<generatorID>A0866B78-3B6D-C015-C883-EE805F908D34</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="39FD8EA9-B7FD-BD3F-AD5C-63E619E14F75" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AD742054-22D9-6839-B7C3-9220C52379EA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

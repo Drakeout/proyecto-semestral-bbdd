@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="COMPLEMENTARIA_POSTULANTE_FK" directorySegmentName="seg_0" id="BE6EFA2F-EF72-4C94-0D01-21C8F6428D88">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:52:47 UTC</createdTime>
+<generatorID>3462D1E5-2F36-2265-6B5F-25E14C652D36</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="39FD8EA9-B7FD-BD3F-AD5C-63E619E14F75" value="true"/>
+</engineerTo>
+<sourcePk>A66AEACD-D7D5-8F6F-C6F5-05347D26A0C7</sourcePk>
+<dominantRole>300B51A7-485A-01B1-C520-135A7AE47CDE</dominantRole>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>300B51A7-485A-01B1-C520-135A7AE47CDE</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>E13F2B8A-5F8D-5AE2-E42A-B4AC386F6AA6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

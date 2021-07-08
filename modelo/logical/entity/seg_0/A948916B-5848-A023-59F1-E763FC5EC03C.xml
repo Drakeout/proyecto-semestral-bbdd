@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A948916B-5848-A023-59F1-E763FC5EC03C" name="EXPERIENCIA LABORAL">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:52:47 UTC</createdTime>
+<generatorID>0FD97D62-BADE-714A-6B32-5C945171F783</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="39FD8EA9-B7FD-BD3F-AD5C-63E619E14F75" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD EXPERIENCIA" id="64BD7377-AAF9-08E8-726A-4710E657D97D">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:52:47 UTC</createdTime>
+<generatorID>4508AA53-BDA3-1290-7774-3018680B7D52</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="39FD8EA9-B7FD-BD3F-AD5C-63E619E14F75" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BC88562F-47D5-6406-A07D-309409F45E4F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO EXPERENCIA" id="A49D4072-39B4-F717-E13B-E81D656352FE">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:52:47 UTC</createdTime>
+<generatorID>BE630528-8ABD-2D1C-34A3-99CFFCF1C349</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="39FD8EA9-B7FD-BD3F-AD5C-63E619E14F75" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>55074AD0-D3FE-81D7-67CF-9936C1FDB563</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE EMPRESA" id="23590618-9658-E5F9-6DFE-1B27FC48C2AA">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:52:47 UTC</createdTime>
+<generatorID>B9082451-AA51-061B-8273-E203CA25B8B9</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="39FD8EA9-B7FD-BD3F-AD5C-63E619E14F75" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>55074AD0-D3FE-81D7-67CF-9936C1FDB563</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA INICIO" id="BEEF2B02-D7E0-6E26-6C0F-2674FF998F0E">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:52:47 UTC</createdTime>
+<generatorID>4F72AB98-F5AC-6F1D-2AD9-582FF6B15AC0</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="39FD8EA9-B7FD-BD3F-AD5C-63E619E14F75" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>E7BE1FF9-4322-C5A5-73BA-BA02B41519A9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA TERMINO" id="3EFFB11F-D3C3-A9C4-00AC-DBFAAD133314">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:52:47 UTC</createdTime>
+<generatorID>10A135E3-BC57-BECA-5287-2F31216E895A</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="39FD8EA9-B7FD-BD3F-AD5C-63E619E14F75" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>E7BE1FF9-4322-C5A5-73BA-BA02B41519A9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="POSTULANTE COD POSTULANTE" id="6C6137B3-BCBF-383D-2B41-53AC5D99B1A5">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:52:47 UTC</createdTime>
+<generatorID>F21F84BD-46F3-566D-1AC9-2C2E90D8CADF</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="39FD8EA9-B7FD-BD3F-AD5C-63E619E14F75" value="true"/>
+</engineerTo>
+<referedAttribute>564DE5EF-E6D6-7317-925C-3D8CFDAB3F8B</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BC88562F-47D5-6406-A07D-309409F45E4F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="187BA568-2DD7-415E-AC6C-635E5E706325" name="EXPERIENCIA LABORAL PK">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:52:47 UTC</createdTime>
+<generatorID>D2937736-15BA-07F1-EF6C-719676CD560E</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="39FD8EA9-B7FD-BD3F-AD5C-63E619E14F75" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>64BD7377-AAF9-08E8-726A-4710E657D97D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

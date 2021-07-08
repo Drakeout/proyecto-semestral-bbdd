@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="CONTACTO" directorySegmentName="seg_0" id="320C7F58-0B70-98BE-1B02-22809F5F574E">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<schemaObject>F488149D-ABB1-155C-CE67-70C41B3A9F51</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>781C01AF-216A-A8B0-4626-6BB45D6E2634</segment>
+<tableSpace>ED4BE645-B60D-748D-A216-78CA5EB9B70D</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="POSTULANTE_COD_POSTULANTE" id="2A842A3C-4C99-926F-5815-62A88357BAC7">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TIPO_DIRECCION" id="46B5BBAB-E037-9684-8AE3-5DEA1D5CB166">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DIRECCION" id="5CF7D61A-1612-797C-08B2-22D01C532910">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COD_CONTACTO" id="61588359-D5A9-227F-7472-3A86ADC4016C">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OPCIONES" id="911417E0-F385-F5AD-DA5F-F349F4678A4C">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ENVIO_CORRESPONDENCIA" id="BB1B9A2C-C82C-D6BC-CDB9-1F94B6CC731E">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CONTACTO_PK" id="1A711906-1B7E-9E30-FAC4-5E7F1B146507">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<schemaObject>F488149D-ABB1-155C-CE67-70C41B3A9F51</schemaObject>
+<computeStatistics>YES</computeStatistics>
+<logging></logging>
+<segment>14543B66-B8C8-E982-C550-BF532C4EF74F</segment>
+<tableSpace>ED4BE645-B60D-748D-A216-78CA5EB9B70D</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CONTACTO_POSTULANTE_FK" id="866AE1AE-E61F-A275-4E32-99D664CE4222">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CONTACTO_PK" id="4808108B-8EC1-BF3F-6E0E-5D29CBCB1891">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<computeStatistics>YES</computeStatistics>
+<logging></logging>
+<segment>A09F5664-1C6F-EE63-9CFF-029F059D190B</segment>
+<tableSpace>ED4BE645-B60D-748D-A216-78CA5EB9B70D</tableSpace>
+<indexSegment>A09F5664-1C6F-EE63-9CFF-029F059D190B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

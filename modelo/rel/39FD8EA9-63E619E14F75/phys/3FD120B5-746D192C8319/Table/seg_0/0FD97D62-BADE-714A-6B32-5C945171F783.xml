@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="EXPERIENCIA_LABORAL" directorySegmentName="seg_0" id="0FD97D62-BADE-714A-6B32-5C945171F783">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<schemaObject>F488149D-ABB1-155C-CE67-70C41B3A9F51</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>781C01AF-216A-A8B0-4626-6BB45D6E2634</segment>
+<tableSpace>ED4BE645-B60D-748D-A216-78CA5EB9B70D</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FECHA_TERMINO" id="10A135E3-BC57-BECA-5287-2F31216E895A">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COD_EXPERIENCIA" id="4508AA53-BDA3-1290-7774-3018680B7D52">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_INICIO" id="4F72AB98-F5AC-6F1D-2AD9-582FF6B15AC0">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE_EMPRESA" id="B9082451-AA51-061B-8273-E203CA25B8B9">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TIPO_EXPERENCIA" id="BE630528-8ABD-2D1C-34A3-99CFFCF1C349">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="POSTULANTE_COD_POSTULANTE" id="C9F9AA4F-2755-DEB0-3885-EEE3C83F07DB">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="EXPERIENCIA_LABORAL_PK" id="AB6F6CD0-B454-7E78-7FAC-9EFCA64C54E1">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<schemaObject>F488149D-ABB1-155C-CE67-70C41B3A9F51</schemaObject>
+<computeStatistics>YES</computeStatistics>
+<logging></logging>
+<segment>14543B66-B8C8-E982-C550-BF532C4EF74F</segment>
+<tableSpace>ED4BE645-B60D-748D-A216-78CA5EB9B70D</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="EXP_LABORAL_POSTULANTE_FK" id="2EB6DDAC-D2BA-4FAD-2F06-529B47918170">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="EXPERIENCIA_LABORAL_PK" id="D2937736-15BA-07F1-EF6C-719676CD560E">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<computeStatistics>YES</computeStatistics>
+<logging></logging>
+<segment>A09F5664-1C6F-EE63-9CFF-029F059D190B</segment>
+<tableSpace>ED4BE645-B60D-748D-A216-78CA5EB9B70D</tableSpace>
+<indexSegment>A09F5664-1C6F-EE63-9CFF-029F059D190B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

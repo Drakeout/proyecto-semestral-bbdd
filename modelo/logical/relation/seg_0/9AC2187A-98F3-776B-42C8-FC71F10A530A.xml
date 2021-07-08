@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ESTUDIOS_POSTULANTE_FK" directorySegmentName="seg_0" id="9AC2187A-98F3-776B-42C8-FC71F10A530A">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:52:47 UTC</createdTime>
+<generatorID>90AC3D63-F360-616F-7B79-19BA119597C5</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="39FD8EA9-B7FD-BD3F-AD5C-63E619E14F75" value="true"/>
+</engineerTo>
+<sourcePk>A66AEACD-D7D5-8F6F-C6F5-05347D26A0C7</sourcePk>
+<dominantRole>300B51A7-485A-01B1-C520-135A7AE47CDE</dominantRole>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>300B51A7-485A-01B1-C520-135A7AE47CDE</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>AAA79AD5-C9CE-4620-B938-C5B69C037B19</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

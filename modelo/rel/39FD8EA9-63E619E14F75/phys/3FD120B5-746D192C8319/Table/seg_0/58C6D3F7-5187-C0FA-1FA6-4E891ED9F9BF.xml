@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="PUNTAJE" directorySegmentName="seg_0" id="58C6D3F7-5187-C0FA-1FA6-4E891ED9F9BF">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<schemaObject>F488149D-ABB1-155C-CE67-70C41B3A9F51</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>781C01AF-216A-A8B0-4626-6BB45D6E2634</segment>
+<tableSpace>ED4BE645-B60D-748D-A216-78CA5EB9B70D</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PTJE_ZONA_EXTREMA" id="152DC94E-7874-3045-D22F-E80666A22AF4">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PTJE_ANTEC_ACAD" id="33BF73F1-6B9A-35E7-F02B-7FEC9A18CFBA">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PTJE_PUEBLO_INDIGENA" id="5CD4D8B2-B88A-7A94-D3C3-1FD845381B73">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PTJE_TRAYEC" id="73884EDC-A988-58FD-67F5-D7A567B157A4">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PTJE_ES_CIVIL" id="94545580-0EBC-5965-726E-3F96E10F38E7">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="POSTULANTE_COD_POSTULANTE" id="9532A8F4-A5BA-A7DF-355C-EB637A381C61">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PTJE_TOTAL" id="A07F192E-7EE4-B82B-C680-C9741F23460E">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COD_PUNTAJE" id="A4641A6D-5D17-D110-B170-B8399AF529D3">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PTJE_RANKING" id="B326F1CE-3743-10A9-5655-106C170666CD">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PTJE_RETRIB" id="C03DB562-0F2B-2977-F72B-E3688DE4CF42">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PTJE_DOCENCIA" id="D2074938-577F-5502-327C-877F39C8D7B5">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PTJE_ESTUDIO" id="EB47AA83-E90C-606D-62CC-2831CBD810EF">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PTJE_EDAD" id="FF650EF9-E832-805E-5578-131E39BE957E">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PUNTAJE__IDX" id="44B552B9-FA93-ADAF-C4A9-955BC0DF8BF3">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<schemaObject>F488149D-ABB1-155C-CE67-70C41B3A9F51</schemaObject>
+<computeStatistics>YES</computeStatistics>
+<logging></logging>
+<segment>14543B66-B8C8-E982-C550-BF532C4EF74F</segment>
+<tableSpace>ED4BE645-B60D-748D-A216-78CA5EB9B70D</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PUNTAJE_PK" id="D54BFD45-C48D-1F70-397A-E4C49F6A0EC5">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<schemaObject>F488149D-ABB1-155C-CE67-70C41B3A9F51</schemaObject>
+<computeStatistics>YES</computeStatistics>
+<logging></logging>
+<segment>14543B66-B8C8-E982-C550-BF532C4EF74F</segment>
+<tableSpace>ED4BE645-B60D-748D-A216-78CA5EB9B70D</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PUNTAJE_POSTULANTE_FK" id="52CD18DE-7400-DBA7-DB21-1D91D5ED4127">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PUNTAJE_PK" id="B66B1B51-8DB0-F3FE-621F-F607CA702A6A">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<computeStatistics>YES</computeStatistics>
+<logging></logging>
+<segment>A09F5664-1C6F-EE63-9CFF-029F059D190B</segment>
+<tableSpace>ED4BE645-B60D-748D-A216-78CA5EB9B70D</tableSpace>
+<indexSegment>A09F5664-1C6F-EE63-9CFF-029F059D190B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

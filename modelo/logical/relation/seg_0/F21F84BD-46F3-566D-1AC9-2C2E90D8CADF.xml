@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EXP_LABORAL_POSTULANTE_FK" directorySegmentName="seg_0" id="F21F84BD-46F3-566D-1AC9-2C2E90D8CADF">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:52:47 UTC</createdTime>
+<generatorID>E95062A3-2CDB-66CF-A53E-899F082B0DFA</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="39FD8EA9-B7FD-BD3F-AD5C-63E619E14F75" value="true"/>
+</engineerTo>
+<sourcePk>A66AEACD-D7D5-8F6F-C6F5-05347D26A0C7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>300B51A7-485A-01B1-C520-135A7AE47CDE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A948916B-5848-A023-59F1-E763FC5EC03C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

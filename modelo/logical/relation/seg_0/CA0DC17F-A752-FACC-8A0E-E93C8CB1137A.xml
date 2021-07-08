@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="COMPLEMENTARIA_ESTADO_CIVIL_FK" directorySegmentName="seg_0" id="CA0DC17F-A752-FACC-8A0E-E93C8CB1137A">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:52:47 UTC</createdTime>
+<generatorID>54D7AEDD-4FC6-B6EA-69C5-F1B226AFC166</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="39FD8EA9-B7FD-BD3F-AD5C-63E619E14F75" value="true"/>
+</engineerTo>
+<sourcePk>794B96DA-2045-7A50-350D-093334C02967</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6967D66A-7664-4C2B-925C-E68FB925E327</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E13F2B8A-5F8D-5AE2-E42A-B4AC386F6AA6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

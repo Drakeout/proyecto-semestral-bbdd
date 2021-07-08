@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6EDF13FB-C246-1F10-B8DF-A148AEFB4F56" schemaObject="F488149D-ABB1-155C-CE67-70C41B3A9F51" name="OBJETIVOS">
+<sourceDDLFile>bbdd-script-08-02.sql</sourceDDLFile>
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<importedID>6242ECA6-A790-D087-965C-76510D443027</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_OBJETIVO" id="7E974DB2-9B92-F666-7A1B-87484833C9E1">
+<sourceDDLFile>bbdd-script-08-02.sql</sourceDDLFile>
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<importedID>05383AA8-676A-5261-A0CF-F9B5AF1C72CC</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BC88562F-47D5-6406-A07D-309409F45E4F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OBJETIVOS" id="0E916C11-7132-8E0A-0109-DC0E1B6859AD">
+<sourceDDLFile>bbdd-script-08-02.sql</sourceDDLFile>
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<importedID>831121E7-4E7A-3B31-9A38-F4B86C27606F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<domain>C60C7C13-1909-683C-E952-F537672C3A37</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INTERES" id="8694DC4F-4988-B2EA-F2B8-BF7E4A485869">
+<sourceDDLFile>bbdd-script-08-02.sql</sourceDDLFile>
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<importedID>C449ABDB-5607-E17C-D5AA-662BE956FE08</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<domain>C60C7C13-1909-683C-E952-F537672C3A37</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RETORNO" id="71217A0F-C112-605B-EAC6-D21B9643C86D">
+<sourceDDLFile>bbdd-script-08-02.sql</sourceDDLFile>
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<importedID>49374826-5EF2-7134-2E29-3C569D96D451</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<domain>C60C7C13-1909-683C-E952-F537672C3A37</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POSTULANTE_COD_POSTULANTE" id="2C258230-3CDF-6C6D-823C-580F768A2906">
+<sourceDDLFile>bbdd-script-08-02.sql</sourceDDLFile>
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<importedID>78D4EA24-72C0-699F-E923-AE7DE838C0EE</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BC88562F-47D5-6406-A07D-309409F45E4F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="82BB0063-5895-D6F8-25FE-FB2CBA855C01" referredColumn="E91D0CEF-C73F-1346-6EF4-6E55641CDEB7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DF761106-2BF6-8179-17F6-27F322F4BC55" name="OBJETIVOS_PK">
+<sourceDDLFile>bbdd-script-08-02.sql</sourceDDLFile>
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<importedID>AECBF7F7-C943-E71D-C7DE-A17555EA76D0</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E974DB2-9B92-F666-7A1B-87484833C9E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7EFE93B-6445-4318-4AC9-3EBD0CB41B8F" schemaObject="F488149D-ABB1-155C-CE67-70C41B3A9F51" name="OBJETIVOS__IDX">
+<sourceDDLFile>bbdd-script-08-02.sql</sourceDDLFile>
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<importedID>EDF25946-D3D9-3378-A150-88254E194686</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C258230-3CDF-6C6D-823C-580F768A2906"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5D060637-07A7-450D-FFB4-B885209B8BA4" schemaObject="F488149D-ABB1-155C-CE67-70C41B3A9F51" name="OBJETIVOS_PK">
+<sourceDDLFile>bbdd-script-08-02.sql</sourceDDLFile>
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<importedID>8569C2A3-F2FE-D4DD-6D44-24BF6D452138</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E974DB2-9B92-F666-7A1B-87484833C9E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="36FB7F8D-7ED3-7020-2A9C-EC7A2B4FD4ED" name="OBJETIVOS_POSTULANTE_FK">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C258230-3CDF-6C6D-823C-580F768A2906"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

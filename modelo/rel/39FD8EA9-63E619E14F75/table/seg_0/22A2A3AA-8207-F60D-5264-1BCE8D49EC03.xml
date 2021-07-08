@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="22A2A3AA-8207-F60D-5264-1BCE8D49EC03" schemaObject="F488149D-ABB1-155C-CE67-70C41B3A9F51" name="SUBAREA">
+<sourceDDLFile>bbdd-script-08-02.sql</sourceDDLFile>
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<importedID>ABE33190-EE4F-029D-84D3-1E37FCF546B6</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_SUBAREA" id="7956122F-70BB-4501-ABAF-F7C5894CD17D">
+<sourceDDLFile>bbdd-script-08-02.sql</sourceDDLFile>
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<importedID>E3642298-5482-DD75-CC2B-573266A33B93</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BC88562F-47D5-6406-A07D-309409F45E4F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_SUBAREA" id="BC05CB80-5F4C-7CF3-FD8F-90499ACDEB28">
+<sourceDDLFile>bbdd-script-08-02.sql</sourceDDLFile>
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<importedID>42554D3D-507A-7699-5B30-298630F23AA2</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>55074AD0-D3FE-81D7-67CF-9936C1FDB563</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INSTITUCION_COD_INSTITUCION" id="4B239CDE-A8DD-D3BC-40F7-A0DAB174DF56">
+<sourceDDLFile>bbdd-script-08-02.sql</sourceDDLFile>
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<importedID>7C6D4D7C-E9EC-2E67-9337-908057570AF6</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BC88562F-47D5-6406-A07D-309409F45E4F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="653CF0F2-70C3-6058-35E6-50E0FEC7C746" referredColumn="02C89819-084C-26E0-ABD4-126A67BF4605"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CE8E2513-5073-C43B-53D4-F6CF20A8744F" name="SUBAREA_PK">
+<sourceDDLFile>bbdd-script-08-02.sql</sourceDDLFile>
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<importedID>4E129E62-22F7-F8F7-C6F3-DEFBDC54E452</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7956122F-70BB-4501-ABAF-F7C5894CD17D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6D6A9970-2324-67F1-54C5-1F2317B478F1" schemaObject="F488149D-ABB1-155C-CE67-70C41B3A9F51" name="SUBAREA__IDX">
+<sourceDDLFile>bbdd-script-08-02.sql</sourceDDLFile>
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<importedID>1F0E226A-E138-9DEB-9E2A-DA12B6D2FEFE</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B239CDE-A8DD-D3BC-40F7-A0DAB174DF56"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB9CED09-BDC2-6542-DAF5-40C656CAE767" schemaObject="F488149D-ABB1-155C-CE67-70C41B3A9F51" name="SUBAREA_PK">
+<sourceDDLFile>bbdd-script-08-02.sql</sourceDDLFile>
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<importedID>A4AF5B17-37C7-52CE-BF29-4D069C876D98</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7956122F-70BB-4501-ABAF-F7C5894CD17D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6435C11F-9E57-6016-D749-E55D3260B41B" name="SUBAREA_INSTITUCION_FK">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B239CDE-A8DD-D3BC-40F7-A0DAB174DF56"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

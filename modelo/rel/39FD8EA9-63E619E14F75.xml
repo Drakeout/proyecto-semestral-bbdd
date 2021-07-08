@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="39FD8EA9-B7FD-BD3F-AD5C-63E619E14F75" mainViewID="764B8F19-0B6E-B669-280C-9E32EC2B5760">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:38:53 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>3FD120B5-9F4E-6278-D5E2-746D192C8319</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>bbdd-script-08-02.sql</fileName>
+<pathName>D:\Duoc\BBDD\PRUEBA3 PROG DE BASE DE DATOS</pathName>
+<dbType>11</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DIRECCION_POSTULANTE_FK" directorySegmentName="seg_0" id="7CECFFE1-4B9C-DC76-BC35-334B59314C5B">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:52:47 UTC</createdTime>
+<generatorID>10A43495-7C9F-C498-8744-31343883438D</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="39FD8EA9-B7FD-BD3F-AD5C-63E619E14F75" value="true"/>
+</engineerTo>
+<sourcePk>A66AEACD-D7D5-8F6F-C6F5-05347D26A0C7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>300B51A7-485A-01B1-C520-135A7AE47CDE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>31755252-5FA0-FA3E-652E-A46058B260DF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

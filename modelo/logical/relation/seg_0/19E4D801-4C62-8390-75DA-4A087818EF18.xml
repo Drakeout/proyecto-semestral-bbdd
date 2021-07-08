@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SUBAREA_INSTITUCION_FK" directorySegmentName="seg_0" id="19E4D801-4C62-8390-75DA-4A087818EF18">
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:52:47 UTC</createdTime>
+<generatorID>653CF0F2-70C3-6058-35E6-50E0FEC7C746</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="39FD8EA9-B7FD-BD3F-AD5C-63E619E14F75" value="true"/>
+</engineerTo>
+<sourcePk>49DCE46F-2705-CF4E-8E19-DDEB48DEB590</sourcePk>
+<dominantRole>A85D4C8E-B742-CB19-7B5C-6EB89897ABDE</dominantRole>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A85D4C8E-B742-CB19-7B5C-6EB89897ABDE</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>483549F6-B1BB-5588-29F8-20E15850ED04</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

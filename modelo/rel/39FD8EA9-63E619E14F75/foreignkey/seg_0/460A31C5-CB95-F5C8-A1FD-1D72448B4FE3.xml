@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="460A31C5-CB95-F5C8-A1FD-1D72448B4FE3" containerWithKeyObject="1A8E9F3F-8CBE-9B21-C0E1-5A7C97DA4C9D" localFKIndex="07D73146-F144-FBB0-0620-A77D8E607A84" name="SUBESPECIALIDAD_SUBAREA_FK">
+<sourceDDLFile>bbdd-script-08-02.sql</sourceDDLFile>
+<createdBy>Felipe</createdBy>
+<createdTime>2021-07-08 15:42:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<importedID>615D0484-A4F3-F045-5895-AA1E5AE703AF</importedID>
+<referredTableLongName>C##POSTULACION.SUBAREA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>22A2A3AA-8207-F60D-5264-1BCE8D49EC03</referredTableID>
+<keyObject>CE8E2513-5073-C43B-53D4-F6CF20A8744F</keyObject>
+<referredKeyID>CE8E2513-5073-C43B-53D4-F6CF20A8744F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COD_SUBAREA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
